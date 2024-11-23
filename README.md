@@ -1,10 +1,4 @@
 <div width="100%" style="width:100%;min-width:1000px;">
- 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mirsmog/mirsmog/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mirsmog/mirsmog/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/mirsmog/mirsmog/output/github-contribution-grid-snake.svg" style="min-width:1000px" width="100%"/>
-</picture>
  <h1 align=""><img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/> Hi there, I'm Artemiy</h1>
  
 #### <div align="" style="font-size:0.5em;">I am a software engineer who specialises in backend development.<br/> I am ready for challenging projects, for something new. I like to learn new things!</div>
