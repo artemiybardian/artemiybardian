@@ -24,15 +24,11 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-%231e2129?style=for-the-badge&logo=fastapi&logoColor=%23009688)](<https://fastapi.tiangolo.com/>)
 [![Aiogram](https://img.shields.io/badge/Aiogram-%23009cfb?style=for-the-badge&logo=aiogram&logoColor=%23009688)](<https://docs.aiogram.dev/>)
 [![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](<https://www.postgresql.org/>)
-[![Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux&logoColor=white)](<https://linux.org/>)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-%23e95420?style=for-the-badge&logo=ubuntu&logoColor=white)](<https://ubuntu.com/>)
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](<https://www.docker.com/>)
 [![Nginx](https://img.shields.io/badge/Nginx-%23009639?style=for-the-badge&logo=nginx&logoColor=white)](<https://tailwindcss.com/>)
 </tr>
 </table>
-
-<br/>
-
 
 </br>
 </br>
