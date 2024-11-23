@@ -6,10 +6,10 @@ name: Generate Snake
 
 on:
   schedule:
-      # every 6 hours
+    # every 6 hours
     - cron: "0 */6 * * *"
 
-# This command allows us to run the Action automatically from the Actions tab.
+  # This command allows us to run the Action manually from the Actions tab.
   workflow_dispatch:
 
 # The sequence of runs in this workflow:
@@ -22,29 +22,29 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
-    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      # Checkout the repository
       - uses: actions/checkout@v3
 
-    # Generates the snake  
+      # Generates the snake
       - uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
-          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
+          # These lines generate the files on a branch called "output"
           outputs: |
             dist/github-contribution-grid-snake.gif
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-     # show the status of the build. Makes it easier for debugging (if there's any issues).
+
+      # Show the status of the build (for debugging purposes)
       - name: Show build status
         run: git status
 
-      - name: Push new files to output branch 
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      # Push new files to the "output" branch
+      - uses: crazy-max/ghaction-github-pages@v3.2.0
         with:
-          # the output branch we mentioned above
           target_branch: output
           build_dir: dist
           commit_message: Update snake animations
